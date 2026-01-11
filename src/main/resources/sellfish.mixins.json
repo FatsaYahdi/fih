@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "saki.sellfish.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"TitleEventMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
